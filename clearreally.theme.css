@@ -9,7 +9,7 @@
  * @BDEditor Clear Vision
 */
 
-@import url('https://clearvision.github.io/ClearVision-v7/main.css');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 
@@ -98,4 +98,9 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: none;
+}
+
+/* Any custom CSS below here */
+#app-mount::before {
+  content: ""
 }
