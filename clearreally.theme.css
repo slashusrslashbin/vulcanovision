@@ -102,4 +102,6 @@
 
 /* Any custom CSS below here */
 
-
+#app-mount::before {
+  all: unset;
+}
